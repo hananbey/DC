@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Decorate To Celebrate</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --primary:#710b33;
+      --secondary:#fde58b;
+      --white:#ffffff;
+      --dark:#111;
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:var(--white);
+      color:var(--dark);
+    }
+
+    header{
+      background:var(--primary);
+      color:var(--white);
+      padding:16px;
+      text-align:center;
+    }
+
+    nav{
+      display:flex;
+      justify-content:space-around;
+      background:var(--secondary);
+      padding:10px;
+      font-weight:600;
+    }
+
+    nav a{
+      color:var(--primary);
+      text-decoration:none;
+    }
+
+    section{
+      padding:25px;
+    }
+
+    h2{
+      color:var(--primary);
+      margin-bottom:15px;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:12px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom:20px;
+      overflow:hidden;
+    }
+
+    .card img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+
+    .card p{
+      padding:15px;
+      font-size:14px;
+    }
+
+    .faq details{
+      margin-bottom:12px;
+      background:#f9f9f9;
+      padding:12px;
+      border-radius:8px;
+    }
+
+    .faq summary{
+      font-weight:600;
+      color:var(--primary);
+      cursor:pointer;
+    }
+
+    footer{
+      background:var(--primary);
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    .social a{
+      color:var(--secondary);
+      margin:0 10px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:14px 16px;
+      border-radius:50%;
+      font-size:22px;
+      text-decoration:none;
+      box-shadow:0 8px 20px rgba(0,0,0,0.3);
+      z-index:999;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Decorate To Celebrate</h1>
+  <p>Luxury Event Decoration</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#balloons">Balloons</a>
+  <a href="#flowers">Flowers</a>
+  <a href="#faq">FAQs</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6" />
+    <p>We create premium balloon & floral decorations for birthdays, weddings, engagements and luxury events.</p>
+  </div>
+</section>
+
+<section id="balloons">
+  <h2>Balloons Decoration</h2>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce" />
+    <p>Premium balloon arches, birthday themes & luxury setups.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93" />
+    <p>Custom color matching & event-specific balloon designs.</p>
+  </div>
+</section>
+
+<section id="flowers">
+  <h2>Flowers Decoration</h2>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" />
+    <p>Fresh & artificial flower arrangements with premium finishing.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df" />
+    <p>Wedding, stage & luxury floral décor.</p>
+  </div>
+</section>
+
+<section id="faq" class="faq">
+  <h2>FAQs</h2>
+
+  <details>
+    <summary>Do you provide custom themes?</summary>
+    <p>Yes, we design fully custom decoration themes.</p>
+  </details>
+
+  <details>
+    <summary>Do you work in all cities?</summary>
+    <p>Currently we operate in major cities. Contact us for details.</p>
+  </details>
+
+  <details>
+    <summary>How to book?</summary>
+    <p>Click WhatsApp button & confirm your event.</p>
+  </details>
+</section>
+
+<footer>
+  <p>Follow Us</p>
+  <div class="social">
+    <a href="https://www.instagram.com/decoratetocelebratee/" target="_blank">Instagram</a>
+    <a href="https://www.facebook.com/decoratetocelebratee" target="_blank">Facebook</a>
+    <a href="#">TikTok</a>
+  </div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/923707671414" target="_blank">💬</a>
+
+<script>
+  console.log("Decorate To Celebrate - Website Loaded");
+</script>
+
+</body>
+</html>
